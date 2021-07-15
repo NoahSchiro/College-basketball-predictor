@@ -17,10 +17,3 @@ def add_data(data):
         #data[0] = date, data[1] = home_team, data[2] = away_team
         #data[3] = home_score, data[4] = away_score
         writer.writerow(data + [home_win])
-
-
-
-temp = ['3/28/2021', 'Mississippi State', 'Memphis', '64', '77']
-
-for i in range(0,5):
-    add_data(temp)
