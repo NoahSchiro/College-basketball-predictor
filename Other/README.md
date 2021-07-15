@@ -39,12 +39,12 @@ What data pointes will we train on? What data points will we try to predict? It 
 In order to feed data into the machine learning model, all of the inputs need to be number based. For instance, team_id needs to be converted from letters to numbers. Same with lg_id, fran_id, etc. We will create here a table of the values so that we know which number represents
 
 |lg_id | Number|
-|--------------|
+|------|-------|
 |NBA   | 0|
 |ABA   | 1|
 
 |team_id | Number|
-|----------------|
+|--------|-------|
 |TRH | 0|
 |NYK | 1|
 |CHS | 2|
@@ -151,7 +151,7 @@ In order to feed data into the machine learning model, all of the inputs need to
 |CHO | 103|
 
 |fran_id | Number|
-|----------------|
+|--------|-------|
 |Huskies | 0|
 |Knicks | 1|
 |Stags | 2|
@@ -207,7 +207,7 @@ In order to feed data into the machine learning model, all of the inputs need to
 |Hornets | 52|
 
 game_location | Number|
-----------------------|
+--------------|-------|
 Home | 0|
 Away | 1|
 N/A | 2|
