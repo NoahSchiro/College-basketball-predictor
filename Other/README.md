@@ -15,6 +15,7 @@ Taken from https://www.kaggle.com/fivethirtyeight/fivethirtyeight-nba-elo-datase
 |```_iscopy``` | Each row of data is tied to a single team for a single game, so iscopy flags if this gameid has already occured for the opposing team in the same matchup|
 |```year_id``` | Season id, named based on year in which the season ended|
 |```date_game``` | Game date|
+|```seasongame```| Which game is it in this season|
 |```is_playoffs``` | Flag for playoff games|
 |```team_id``` | Three letter code for team name, from Basketball Reference|
 |```fran_id``` | Franchise id. Multiple teamids can fall under the same franid due to name changes or moves. Interactive is grouped by fran_id.|
